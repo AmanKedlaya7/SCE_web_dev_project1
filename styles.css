@@ -1,0 +1,136 @@
+.header{
+    text-align: center;
+    font-size: 40px;
+}
+
+.TOC{
+    text-align: center;
+    font-size: 25px;
+
+}
+.pastaMain{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px; 
+}
+
+.tacoMain{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px;
+}
+
+.pancakeMain{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px;
+}
+
+.pasta-card{
+    background-color: azure;
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.taco-card{
+    background-color: azure;
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.pancake-card{
+    background-color: azure;
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.card-container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn{
+    background: lightblue;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: springgreen;
+}
+
+.food{
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+} 
+
+.name{
+    text-align: center;
+}
+
+.pastapic{
+    width: 50%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-desc{
+    text-align: center;
+}
+
+.ingredients{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: blue;
+}
+
+.steps{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: blue;
+}
+
+.btnHome{
+    background: lavender;
+    color: black;
+    padding: 5px 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.btnHome:hover{
+    background: yellowgreen;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 5px;           
+    margin-bottom: 15px;           
+}
